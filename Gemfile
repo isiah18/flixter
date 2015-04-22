@@ -24,6 +24,8 @@ gem 'autoprefixer-rails'
 # Adding Devise
 gem 'devise', '>= 3.2.4'
 
+# Adding Simple Form
+gem 'simple_form'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
