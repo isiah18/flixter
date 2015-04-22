@@ -21,6 +21,9 @@ gem 'bootstrap-sass', '~> 3.3.4'
 # Adding Autoprefixer 
 gem 'autoprefixer-rails'
 
+# Adding Devise
+gem 'devise', '>= 3.2.4'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
