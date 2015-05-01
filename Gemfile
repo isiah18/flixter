@@ -29,6 +29,18 @@ gem 'simple_form'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Add Carrier Wave
+gem 'carrierwave'
+
+# Add Figaro
+gem 'figaro'
+
+# Add fog gem
+gem 'fog', "~> 1.3.1"
+
+# Add mini magick
+gem 'mini_magick'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 

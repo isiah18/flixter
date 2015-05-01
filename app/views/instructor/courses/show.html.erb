@@ -3,6 +3,9 @@
 	<br />
 	<%= link_to 'Preview As Student', course_path(current_course), :class => 'btn btn-warning pull-right' %>
 	<br class ="clr" />
+	<div class = "pull-left">
+		<%= image_tag current_course.image, :class => 'img-responsive' %>
+	</div>
 	<div class = "text-center">
 		<%= link_to 'Add Section...', new_instructor_course_section_path(current_course), :class => 'btn btn-primary btn-lg' %>
 		<br />
