@@ -41,6 +41,9 @@ gem 'carrierwave-aws'
 # Add mini magick
 gem 'mini_magick'
 
+# Add Stripe for payments
+gem 'stripe'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
