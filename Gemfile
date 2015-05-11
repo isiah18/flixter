@@ -44,6 +44,9 @@ gem 'mini_magick'
 # Add Stripe for payments
 gem 'stripe'
 
+# Add Ranked Model
+gem 'ranked-model'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
