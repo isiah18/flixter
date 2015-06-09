@@ -88,10 +88,41 @@
 
 	<div id="footer">
     	<div class="container">
-      		<b>Teacher</b>
-      		<br />
-      		<%= link_to 'Teach A Course', new_instructor_course_path %>
-      		<br />
+    		<div class="col-xs-12 col-sm-3">
+	      		<b>Teacher</b>
+	      		<br />
+	      		<%= link_to 'Teach A Course', new_instructor_course_path %>
+	      		<br />
+	      		<%= link_to "My Dashboard", dashboard_path %>
+	      	</div>
+	      	<div class="col-xs-12 col-sm-3">
+	      		<b>About</b>
+	      		<br />
+	      		<%= link_to 'Team', '#' %>
+	      		<br />
+	      		<%= link_to "Careers", '#' %>
+	      		<br />
+	      		<%= link_to "Privacy Policy", '#' %>
+	      	</div>
+	      	<div class="col-xs-12 col-sm-3">
+	      		<b>Contact</b>
+	      		<br />
+	      		isiahsingh18@gmail.com
+	      		<br />
+	      		Abbey Glen
+	      		<br />
+	      		Lakewood Ranch, FL, 34202
+	      	</div>
+	      	<div class="col-xs-12 col-sm-3 social">
+	      		<b>Social</b>
+	      		<br />
+	      		<br />
+	      		<%= link_to 'http://github.com/isiah18' do %>
+	      			<%= image_tag 'github.png', :class => 'social-button' %>
+	      		<% end %>
+	      	
+	      	</div>
+
 
     	</div>
   	</div>
